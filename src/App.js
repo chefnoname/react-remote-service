@@ -53,7 +53,6 @@ const App = () => {
         <h3>Continets to filter through:</h3>
         {CONTINENTS.map((continent, i) => (
           <div key={continent}>
-            {console.log(i)}
             <input
               type='radio'
               name='country'
